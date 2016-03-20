@@ -1,0 +1,2 @@
+module FirstquizHelper
+end
