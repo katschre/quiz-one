@@ -1,0 +1,30 @@
+#master style
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+
+.circle {
+    font-family: Helvetica;
+    font-weight:bold;
+    font-style: italic;
+    padding-top: 20px;
+    position: relative;
+    border-radius: 100%;
+    background: #324BAD;
+    border: 1px solid #94A5EB;
+    width: 140px;
+    height: 122px;
+    margin: 14px 14px;
+    text-align: center;
+    color: #FFF;
+    font-size: 22px;
+    line-height: 86px;
+    cursor: pointer;
+    transform:rotate(11deg);
+    -ms-transform:rotate(11deg); /* IE 9 */
+    -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
+}
