@@ -1,5 +1,13 @@
 
+<h1> Welcome to my second quiz! </h1>
 <hr />
-<h1> Welcome to my first quiz! </h1>
+<% @packings.each do |packing| %>
+  <div>
+    <h1><%= packing.item %></h1><br />
+    <p><%= packing.description %></p><br />
+  </div>
+
+  <hr />
+<% end %>
 <hr />
 <br />
