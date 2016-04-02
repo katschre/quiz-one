@@ -1,4 +1,4 @@
-class FirstquizController < ApplicationController
+class PackingsController < ApplicationController
   def index
     @packings = Packing.all
   end

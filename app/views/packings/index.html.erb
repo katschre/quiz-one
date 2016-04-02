@@ -1,0 +1,11 @@
+
+<h1> Welcome to my second quiz! </h1>
+<hr />
+<% @packings.each do |packing| %>
+  <div class="booyah-box col-xs-10 col-xs-offset-1">
+    <h1><%= packing.item %></h1>
+    <p><%= packing.description %></p><br /><br />
+  </div>
+<% end %>
+<hr />
+<br />

@@ -1,6 +1,6 @@
 QuizOne::Application.routes.draw do
 
-  root 'firstquiz#index'
+  root 'packings#index'
 
   resources :packings
   # The priority is based upon order of creation: first created -> highest priority.
